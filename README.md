@@ -5,5 +5,6 @@
 ## 実行方法
 
 ```shell
+yarn install
 yarn dev
 ```

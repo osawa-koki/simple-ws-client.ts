@@ -1,7 +1,7 @@
 import readline from 'readline';
 import WebSocket from 'ws';
 
-const client = new WebSocket('ws://localhost:8000/chat');
+const client = new WebSocket('ws://localhost:8000/cable');
 
 client.on('open', () => {
   const rl = readline.createInterface({
